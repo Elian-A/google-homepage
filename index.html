@@ -4,51 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Gomepage | Clone</title>
+    <title>Google Homepage | Clone</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="./styles/normalize.css">
 </head>
 <body>
-    <head>
-        <nav>
-           <div>
+    <header>
+        <nav class="top--navigator">
+           <div class="top--navigator_list top--navigator_list1">
                <a href="">Gmail</a>
                <a href="">Imágenes</a>
             </div>
-           <div>
+           <div class="top--navigator_list top--navigator_list2">
                <img src="#" alt="Icono">
                <a href="">Iniciar Sesión</a>
            </div>
         </nav>
-    </head>
+    </header>
     <main>
-        <div class="image-container">
-            <img class="image-container__item1" src="#" alt="">
+        <div class="image--container">
+            <img class="image--container__item1" src="#" alt="">
         </div>
-        <div>
-            <input type="text" name="" id="">
-            <input type="button" value="Buscar con Google" name="">
-            <input type="button" value="Me siento con suerte" name="Me siento con suerte">
+        <div class="search--container">
+            <input class="search--container__input-text" type="text" name="" id="">
+            <input class="search--container__search-button" type="button" value="Buscar con Google" name="">
+            <input class="search--container__lucky-button" type="button" value="Me siento con suerte" name="Me siento con suerte">
             <p>Ofrecido por Google en: <a href="">Español (Latinoamérica)</a></p>
         </div>
     </main>
     <footer>
-        <div>
-            <div><p>Paraguay</p></div>        
-            <div>
-                <ul>
+            <div class="country"><p>Paraguay</p></div>        
+            <div class="bottom--navigator">
+                <ul class="bottom--navigator__list bottom--navigator__list1">
                     <li><a href="">Sobre Google</a></li>
                     <li><a href="">Publicidad</a></li>
                     <li><a href="">Negocios</a></li>
                     <li><a href="">Cómo funciona la Búsqueda</a> </li>
                 </ul>
-                <ul>
+                <ul class="bottom--navigator__list bottom--navigator__llist">
                     <li><a href="">Privacidad</a></li>
                     <li><a href="">Condiciones</a></li>
                     <li><a href="">Preferencias</a></li>
                 </ul>
             </div>
-        </div>
     </footer>
 </body>
 </html>
