@@ -11,6 +11,21 @@
     align-items: center;
 }
 
+.image--container__item
+{
+    max-width: 375px;
+    max-height: 150px
+}
+
+@media (min-height: 700px)
+{
+    .image--container__item
+    {
+        max-width: 500px;
+        max-height: 200px
+    }
+}
+
 .search
 {
     flex: 1 1 0;
@@ -23,8 +38,12 @@
 
 .search--container__input-text
 {
+    min-width: 60vw;
+    min-height: 30px;
     display: block;
     margin: 3vh auto;
+    border: 0.5px solid gray;
+    border-radius: 15px;
 }
 
 .branchoffice--country
