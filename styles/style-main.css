@@ -1,3 +1,19 @@
-main{
+.image--container
+{
+    margin: 3%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.search--container
+{
+    text-align: center;
+}
+
+.search--container__input-text
+{
+    display: block;
+    margin: 3vh auto;
+}
+
