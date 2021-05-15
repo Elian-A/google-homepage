@@ -3,12 +3,26 @@ ul
     list-style-type: none;
 }
 
-header
+a
 {
-    position: relative;
+    margin: 5px 5px;
+    text-decoration: none;
 }
+
+a:hover
+{
+    margin: 5px 5px;
+    text-decoration: underline;
+}
+
 
 .top--navigator
 {
-    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top--navigator__list
+{
+    margin-right: 25px;
 }
