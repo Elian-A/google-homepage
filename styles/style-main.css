@@ -1,4 +1,4 @@
-main
+.search
 {
     flex: 2 1 0;
 }
@@ -22,3 +22,8 @@ main
     margin: 3vh auto;
 }
 
+.branchoffice--country
+{
+    text-align: center;
+    flex: 1 1 0;
+}
