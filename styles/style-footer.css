@@ -3,8 +3,20 @@ footer
     background-color: #f2f2f2;
 }
 
-.bottom--navigator__list2
+.bottom--navigator
 {
+    padding: 15px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bottom--navigator__list1
+{
+    margin-right: 25px;
+}
+
+.country
+{
+    border-bottom: 2px solid #dadce0 ;
 }
