@@ -1,0 +1,10 @@
+footer
+{
+    background-color: #f2f2f2;
+}
+
+.bottom--navigator__list2
+{
+    display: flex;
+    justify-content: space-around;
+}
